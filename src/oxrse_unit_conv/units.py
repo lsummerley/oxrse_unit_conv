@@ -26,6 +26,8 @@ lb = pound
 # ampere
 
 # kelvin
+celsius = Unit(name='celsius', abbr='°C', si=kelvin, to_si_fun=lambda n: n + 273.15)
+C = celsius
 
 # mole
 
